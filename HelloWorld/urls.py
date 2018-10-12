@@ -18,7 +18,7 @@ from django.urls import path
 
 from django.conf.urls import url
 
-from . import view, testdb, search
+from . import view, testdb, search, search2
 
 
 urlpatterns = [
@@ -34,5 +34,6 @@ urlpatterns = [
 
     path('search-form/', search.search_form),
     path('search/', search.search),
+    path('search-post/', search2.search_post),
 
 ]
