@@ -91,6 +91,9 @@ learn about the django by a project
 #### 自定义表单
   1. 在TestModel/admin.py中定义显示格式的类
 
+#### 列表页显示
+  1. 输入contact记录
+  2. 在 TestModel/admin.py的 ContactAdmin 中增加 list_display 属性和其他属性
 
 
 ## 总结
