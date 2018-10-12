@@ -59,8 +59,11 @@ learn about the django by a project
 
 
 #### 创建APP
-
-
+  1. 运行 *django-admin startapp TestModel* 创建APP(使用模型必须要创建app)
+  2. 在settings.py中更新INSTALLED_APPS
+  3. 运行 *python manage.py migrate* 创建表结构
+  4. 运行 *python manage.py makemigrations TestModel*  绑定模型有一些变更
+  5. 运行 *python manage.py migrate TestModel* 创建表结构
 
 
 

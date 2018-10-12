@@ -18,7 +18,7 @@ from django.urls import path
 
 from django.conf.urls import url
 
-from . import view
+from . import view, testdb
 
 
 urlpatterns = [
@@ -26,4 +26,10 @@ urlpatterns = [
 
     url(r'hello/1/', view.hello1),
     path('hello/2/', view.hello2),
+
+    path('testdb/1/', testdb.testdb1),
+    path('testdb/2/', testdb.testdb2),
+    path('testdb/3/', testdb.testdb3),
+    path('testdb/4/', testdb.testdb4),
+
 ]
