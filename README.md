@@ -80,7 +80,7 @@ learn about the django by a project
   2. 运行 *python manage.py createsuperuser* 创建超级账户，依次输入用户名，邮箱和密码
   3. 浏览器中输入 *http://127.0.0.1:8000/admin/* 并登陆账户
 
-### 添加模型
+#### 添加模型
   1. 在 TestModel/admin.py中注册模型
   2. 在 TestModel/models.py 中增加数据模型，注意关联模型时 *ForeignKey(Contact,  on_delete=models.CASCADE)*
   3. 在 TestModel/admin.py中注册
@@ -88,7 +88,8 @@ learn about the django by a project
   5. 运行 *python manage.py migrate TestModel* 创建表结构
 
 
-
+#### 自定义表单
+  1. 在TestModel/admin.py中定义显示格式的类
 
 
 
