@@ -65,8 +65,10 @@ learn about the django by a project
   4. 运行 *python manage.py makemigrations TestModel*  绑定模型有一些变更
   5. 运行 *python manage.py migrate TestModel* 创建表结构
 
-
-
+#### HTTP GET方法
+  HTTP协议以"请求－回复"的方式工作。
+  1. 创建一个 search.py 文件
+  2. 添加 templates/search_form.html
 
 
 ## 总结
